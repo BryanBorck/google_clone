@@ -28,7 +28,7 @@ Use então o comando de change directory para entrar no seu repositório:
 cd meu-app-react
 ```
 
-E então para para instalar as dependência necessária, sempre coloque:
+E então para para instalar as dependências necessárias, sempre coloque:
 
 ```
 npm install
