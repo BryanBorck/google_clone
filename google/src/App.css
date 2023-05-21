@@ -2,9 +2,11 @@
   --viewpoint-height: 100vh;
   --viewpoint-width: 100vw;
 
-  --fake-white: rgb(235, 235, 235, 0.7);
-  --deep-white: rgb(225, 225, 225, 1);
+  --color-bkg: white;
+  --fake-color: rgb(235, 235, 235, 0.7);
+  --deep-color: rgb(225, 225, 225, 1);
   --color-shadow: #888888;
+  --font-color: #212121;
 
   --font-size-title: 15vh;
   --font-size-subtitle: 2vh;
@@ -21,18 +23,44 @@ body, html {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background: var(--color-bkg);
 }
 
 .Top_app {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  margin-top: calc(var(--viewpoint-height) * 0.02);
+  height: calc(var(--viewpoint-height) * 0.03);
+  width: var(--viewpoint-width);
+
+  margin-left: 80%;
+  width: 10%;
+}
+
+.Change_theme {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 
-  height: calc(var(--viewpoint-height) * 0.05);
-  width: var(--viewpoint-width);
+  border: 0;
+  background: var(--fake-color);
+  border-radius: 100px;
 
-  background: rgb(0, 0, 255, 0);
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 5vh;
+  width: 50%;
+}
+
+.Change_theme:hover {
+  cursor: pointer;
+  background: var(--deep-color);
+  transition: .7s;
 }
 
 .Wrapper {
@@ -83,13 +111,14 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
 
   height: 12%;
   width: 96%;
   padding-left: 3%;
   margin-bottom: 2%;
 
-  background: var(--fake-white);
+  background: var(--fake-color);
   border-radius: 50px;
   box-shadow: 1px 1px var(--color-shadow);
 }
@@ -102,7 +131,7 @@ p {
 
   margin-left: 2%;
   height: 65%;
-  width: 85%;
+  width: 80%;
 
   background: transparent;
   border: 0px solid;
@@ -124,7 +153,7 @@ p {
   justify-content: center;
 
   margin-left: 2%;
-  width: 3%;
+  height: 40%;
 }
 
 .Icons_bar {
@@ -147,7 +176,7 @@ p {
   height: 13vh;
   width: 13vh;
   
-  background: white;
+  background: transparent;
   border-radius: .5vh;
 
   color: white;
@@ -155,7 +184,8 @@ p {
 
 .Icon:hover {
   cursor: pointer;
-  background: var(--fake-white);
+  background: var(--fake-color);
+  transition: .7s;
 }
 
 .Icon_round {
@@ -169,7 +199,7 @@ p {
   width: 7vh;
   margin-bottom: 1.5vh;
 
-  background: var(--deep-white);
+  background: var(--deep-color);
   border-radius: 100px;
 }
 
@@ -186,17 +216,41 @@ p {
   font-family: var(--font-family);
   font-weight: 900;
   font-size: var(--font-size-subtitle);
-  color: #212121;
+  color: var(--font-color);
 }
 
 .Bottom_app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: calc(var(--viewpoint-height) * 0.03);
+  margin-bottom: calc(var(--viewpoint-height) * 0.02);
+  width: var(--viewpoint-width);
+
+  margin-left: 80%;
+  width: 10%;
+}
+
+.Change_bkg {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  height: calc(var(--viewpoint-height) * 0.05);
-  width: var(--viewpoint-width);
+  border: 0;
+  background: var(--fake-color);
+  border-radius: 100px;
 
-  background: rgb(0, 0, 255, 0);
+  margin-left: 10%;
+  height: 5vh;
+  width: 50%;
+  margin-bottom: 10%;
+}
+
+.Change_bkg:hover {
+  cursor: pointer;
+  background: var(--deep-color);
+  transition: .7s;
 }

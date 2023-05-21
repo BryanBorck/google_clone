@@ -1,0 +1,69 @@
+:root {
+    --viewpoint-height: 100vh;
+    --viewpoint-width: 100vw;
+
+    --color-bkg: white;
+    --fake-color: rgb(235, 235, 235, 0.7);
+    --deep-color: rgb(225, 225, 225, 1);
+    --color-shadow: #888888;
+    --font-color: #212121;
+}
+
+body, html {
+    margin: 0;
+}
+
+.FormApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.WrapperForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: purple;
+    opacity: 0.3;
+    border-radius: 30px;
+
+    height: calc(var(--viewpoint-height) * 0.60);
+    width: calc(var(--viewpoint-width) * 0.6);
+    margin-top: calc(var(--viewpoint-height) * 0.20);
+}
+
+.MyForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height: 100%;
+    width: 100%;
+
+    background: blue;
+}
+
+.MyInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.MyButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height: 5vh;
+    width: 200px;
+}
