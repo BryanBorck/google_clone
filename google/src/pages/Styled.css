@@ -58,7 +58,7 @@
     width: 50%;
   }
   
-  .Change_theme:hover {
+  .Change_themeStd:hover {
     cursor: pointer;
     background: var(--deep-color);
     transition: .7s;
@@ -140,10 +140,10 @@
     font-family: var(--font-family);
     font-weight: 900;
     font-size: var(--font-size-subtitle);
-    color: #212121;
+    color: var(--font-color);
   }
   
-  .Input_search:focus {
+  .Input_searchStd:focus {
     outline: none;
   }
   
@@ -183,7 +183,7 @@
     color: white;
   }
   
-  .Icon:hover {
+  .IconStd:hover {
     cursor: pointer;
     background: var(--fake-color);
     transition: .7s;
@@ -250,7 +250,7 @@
     margin-bottom: 10%;
   }
   
-  .Change_bkg:hoverStd {
+  .Change_bkgStd:hover {
     cursor: pointer;
     background: var(--deep-color);
     transition: .7s;

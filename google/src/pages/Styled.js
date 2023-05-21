@@ -42,32 +42,32 @@ function Styled() {
             </p>
             </div>
             <div className="Search_barStd">
-            <RiSearchLine size="3vh" color="gray"/>
-            <input className="Input_searchStd"></input>
-            <img className="MicStd" src={Mic} alt='mic'></img>
+                <RiSearchLine size="3vh" color="gray"/>
+                <input className="Input_searchStd" placeholder="Search"></input>
+                <img className="MicStd" src={Mic} alt='mic'></img>
             </div> 
             <div className="Icons_barStd">
             <div className="IconStd">
                 <div className="Icon_roundStd">
-                <RiYoutubeFill size="4.5vh" color="red"/>
+                    <RiYoutubeFill size="4.5vh" color="red"/>
                 </div>
                 <div className="Icon_textStd">Youtube</div>
             </div>
             <div className="IconStd">
                 <div className="Icon_roundStd">
-                <RiMediumFill size="4.5vh" color="black"/>
+                    <RiMediumFill size="4.5vh" color="black"/>
                 </div>
                 <div className="Icon_text">Medium</div>
             </div>
             <div className="IconStd">
                 <div className="Icon_roundStd">
-                <RiNetflixFill size="4.5vh" color="red"/>
+                    <RiNetflixFill size="4.5vh" color="red"/>
                 </div>
                 <div className="Icon_textStd">Netflix</div>
             </div>
             <div className="IconStd">
                 <div className="Icon_roundStd">
-                <RiFacebookCircleFill size="4.5vh" color="blue"/>
+                    <RiFacebookCircleFill size="4.5vh" color="blue"/>
                 </div>
                 <div className="Icon_textStd">Facebook</div>
             </div>
@@ -75,25 +75,25 @@ function Styled() {
             <div className="Icons_barStd">
             <div className="IconStd">
                 <div className="Icon_roundStd">
-                <RiTwitterFill size="4.5vh" color="cyan"/>
+                    <RiTwitterFill size="4.5vh" color="cyan"/>
                 </div>
                 <div className="Icon_textStd">Twitter</div>
             </div>
             <div className="IconStd">
                 <div className="Icon_roundStd">
-                <RiSnapchatFill size="4.5vh" color="yellow"/>
+                    <RiSnapchatFill size="4.5vh" color="yellow"/>
                 </div>
                 <div className="Icon_textStd">Snapchat</div>
             </div>
             <div className="IconStd">
                 <div className="Icon_roundStd">
-                <RiWhatsappFill size="4.5vh" color="green"/>
+                    <RiWhatsappFill size="4.5vh" color="green"/>
                 </div>
                 <div className="Icon_textStd">Whatsapp</div>
             </div>
             <div className="IconStd">
                 <div className="Icon_roundStd">
-                <RiSteamFill size="4.5vh" color="blue"/>
+                    <RiSteamFill size="4.5vh" color="blue"/>
                 </div>
                 <div className="Icon_textStd">Steam</div>
             </div>
@@ -101,7 +101,7 @@ function Styled() {
         </div>
         <div className="Bottom_appStd">  
             <button className="Change_themeStd" onClick={() => history("/")}>
-            <RiEditLine size="2.5vh" color="gray"/>
+                <RiEditLine size="2.5vh" color="gray"/>
             </button>
         </div>
         </div>

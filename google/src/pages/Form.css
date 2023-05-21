@@ -43,10 +43,13 @@ body, html {
     justify-content: center;
     text-align: center;
 
-    height: 100%;
-    width: 100%;
+    margin-bottom: 5%;
 
-    background: blue;
+    height: 100%;
+    width: 80%;
+
+    font-size: 6vh;
+    color: white;
 }
 
 .MyInput {
@@ -55,6 +58,13 @@ body, html {
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    margin-bottom: 5%;
+
+    height: 6vh;
+    width: 100%;
+
+    font-size: 3vh;
 }
 
 .MyButton {
@@ -64,6 +74,21 @@ body, html {
     justify-content: center;
     text-align: center;
 
-    height: 5vh;
-    width: 200px;
+    height: 6vh;
+    width: 100%;
+
+    background: purple;
+    color: white;
+    border: 3px solid white;
+    border-radius: 40px;
+
+    font-size: 3vh;
+
+    cursor: pointer;
+}
+
+.MyButton:hover {
+    background: white;
+    color: purple;
+    transition: .5s
 }

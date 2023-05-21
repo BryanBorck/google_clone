@@ -14,16 +14,17 @@ function Form() {
     return (
         <div className="FormApp">
             <div className="WrapperForm">
-                <form classname="MyForm" onSubmit={handleSubmit}>
+                <form className="MyForm" onSubmit={handleSubmit}>
+                    <p>My Form</p>
                     <input 
                         type="text"
                         placeholder='escreva seu nome'
                         value={name}
-                        classname="MyInput"
+                        className="MyInput"
                         onChange={(e) => setName(e.target.value)}
                     >
                     </input>
-                    <button type="submit" classname="MyButton"></button>
+                    <button type="submit" className="MyButton">Submit</button>
                 </form>
             </div>
         </div>

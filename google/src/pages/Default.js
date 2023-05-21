@@ -24,10 +24,10 @@ function Default() {
         <div className="App">
         <div className="Top_app">  
             <button className="Change_theme" onClick={() => setColor('#212121', '#292929', '#4e4e4e', 'white')}>
-            <RiMoonClearLine size="2.5vh" color="gray"/>
+                <RiMoonClearLine size="2.5vh" color="gray"/>
             </button>
             <button className="Change_theme" onClick={() => setColor('white', 'rgb(235, 235, 235, 0.7)', 'rgb(225, 225, 225, 1)', '#212121')}>
-            <RiSunLine size="2.5vh" color="gray"/>
+                <RiSunLine size="2.5vh" color="gray"/>
             </button>
         </div>
         <div className="Wrapper"> 
@@ -43,19 +43,19 @@ function Default() {
             </div>
             <div className="Search_bar">
                 <RiSearchLine size="3vh" color="gray"/>
-                <input className="Input_search"></input>
+                <input className="Input_search" placeholder="Search"></input>
                 <img className="Mic" src={Mic} alt='mic'></img>
             </div> 
             <div className="Icons_bar">
             <div className="Icon">
                 <div className="Icon_round">
-                <RiYoutubeFill size="4.5vh" color="red"/>
+                    <RiYoutubeFill size="4.5vh" color="red"/>
                 </div>
                 <div className="Icon_text">Youtube</div>
             </div>
             <div className="Icon">
                 <div className="Icon_round">
-                <RiMediumFill size="4.5vh" color="black" onClick={() => history("/form")}/>
+                    <RiMediumFill size="4.5vh" color="black" onClick={() => history("/form")}/>
                 </div>
                 <div className="Icon_text">Medium</div>
             </div>
@@ -67,7 +67,7 @@ function Default() {
             </div>
             <div className="Icon">
                 <div className="Icon_round">
-                <RiFacebookCircleFill size="4.5vh" color="blue"/>
+                    <RiFacebookCircleFill size="4.5vh" color="blue"/>
                 </div>
                 <div className="Icon_text">Facebook</div>
             </div>
@@ -75,25 +75,25 @@ function Default() {
             <div className="Icons_bar">
             <div className="Icon">
                 <div className="Icon_round">
-                <RiTwitterFill size="4.5vh" color="cyan"/>
+                    <RiTwitterFill size="4.5vh" color="cyan"/>
                 </div>
                 <div className="Icon_text">Twitter</div>
             </div>
             <div className="Icon">
                 <div className="Icon_round">
-                <RiSnapchatFill size="4.5vh" color="yellow"/>
+                    <RiSnapchatFill size="4.5vh" color="yellow"/>
                 </div>
                 <div className="Icon_text">Snapchat</div>
             </div>
             <div className="Icon">
                 <div className="Icon_round">
-                <RiWhatsappFill size="4.5vh" color="green"/>
+                    <RiWhatsappFill size="4.5vh" color="green"/>
                 </div>
                 <div className="Icon_text">Whatsapp</div>
             </div>
             <div className="Icon">
                 <div className="Icon_round">
-                <RiSteamFill size="4.5vh" color="blue"/>
+                    <RiSteamFill size="4.5vh" color="blue"/>
                 </div>
                 <div className="Icon_text">Steam</div>
             </div>
@@ -101,7 +101,7 @@ function Default() {
         </div>
         <div className="Bottom_app">  
             <button className="Change_theme" onClick={() => history("/styled")}>
-            <RiEditLine size="2.5vh" color="gray"/>
+                <RiEditLine size="2.5vh" color="gray"/>
             </button>
         </div>
         </div>
